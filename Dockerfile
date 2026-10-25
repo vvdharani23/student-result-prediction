@@ -13,7 +13,6 @@ COPY train_model.py .
 RUN python train_model.py
 
 COPY main.py .
-COPY tests ./tests
 
 EXPOSE 8000
 
